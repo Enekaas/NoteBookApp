@@ -14,7 +14,7 @@ function addNote(){
 }
 
 if (localStorage.getItem('notes') !== null){
-  ln.innerText = 'your last note:'
+  ln.innerText = 'Your last note:'
   ul.innerHTML += `<li class="list-group-item">${localStorage.getItem('notes')}</li>`;
 } else {
   ln.innterText = "You Haven't any note"
