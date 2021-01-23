@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteBook App</title>
+    <link rel="stylesheet" href="res/bootstrap@5.0.0-alpha2.min.css">
+    <link rel="stylesheet" href="res/chartist.min.css">
+   
+</head>
+<body>
+   
+    <div class="container-fluid">
+        
+            <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4 py-4">
+                <h1 class="h2">NoteBook App</h1>
+                <p>This is my personal NoteBook App</p>
+                <div class="row my-4">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                        <div class="card">
+                            <h5 class="card-header p-2 display-6">Notes</h5>
+                            <div class="card-body">
+                              <div class="mb-2">
+                                <p class="display-6">your last note:</p>
+                                <ul class="list-group list-group-flush"></ul>
+                              </div>
+                              <div class="mb-2">
+                              <input type="text" class="form-control" placeholder="write note" />
+                              </div>
+                              <button class="btn btn-outline-primary" onclick="addNote()">save</button>
+                             
+                            </div>
+                             <div class="card-footer">
+                               <p class="card-text text-muted"></p>
+                             </div>
+                          </div>
+                    </div>
+                    
+            </main>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <!-- Github buttons -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
