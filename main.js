@@ -4,7 +4,7 @@ const cardHeader = document.querySelector('.card-header')
 const cardText = document.querySelector('.card-text')
 setInterval(() => {
 cardText.innerText = new Date().toLocaleString()
-cardHeader.innerText = ` | ${new Date().toLocaleString()}`
+cardHeader.innerText = `NoteBook App | ${new Date().toLocaleString()}`
 },1000);
 
 function addNote(){
